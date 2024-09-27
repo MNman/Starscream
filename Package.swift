@@ -1,4 +1,4 @@
-// swift-tools-version:5.3
+// swift-tools-version:5.4
 
 //
 //  Package.Swift
@@ -24,6 +24,7 @@ import PackageDescription
 
 let package = Package(
         name: "Starscream",
+        platforms: [.iOS(.v11),.macOS(.v10_13)],
         products: [
             .library(name: "Starscream", targets: ["Starscream"])
         ],
