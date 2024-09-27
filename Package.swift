@@ -1,4 +1,4 @@
-// swift-tools-version:4.2
+// swift-tools-version:5.3
 
 //
 //  Package.Swift
@@ -29,7 +29,7 @@ let package = Package(
         ],
         dependencies: [],
         targets: [
-            .target(name: "Starscream")
+            .target(name: "Starscream",path: "Sources",resources: [.copy("PrivacyInfo.xcprivacy")])
         ]
 )
 
