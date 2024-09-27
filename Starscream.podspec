@@ -11,7 +11,7 @@ Pod::Spec.new do |s|
   s.osx.deployment_target = '10.10'
   s.tvos.deployment_target = '9.0'
   s.watchos.deployment_target = '2.0'
-  s.source_files = 'Sources/**/*.swift'
+  s.source_files = ['Sources/**/*.swift','Sources/PrivacyInfo.xcprivacy']
   s.swift_version = '5.0'
   s.resource_bundles = {
      'Starscream_Privacy' => ['Sources/PrivacyInfo.xcprivacy'],
