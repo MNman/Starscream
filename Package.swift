@@ -29,7 +29,7 @@ let package = Package(
         ],
         dependencies: [],
         targets: [
-            .target(name: "Starscream",path: "Sources/Starscream",resources: [.copy("PrivacyInfo.xcprivacy")])
+            .target(name: "Starscream",resources: [.process("PrivacyInfo.xcprivacy")])
         ]
 )
 
