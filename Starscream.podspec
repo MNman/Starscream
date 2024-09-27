@@ -14,6 +14,6 @@ Pod::Spec.new do |s|
   s.source_files = 'Sources/**/*.swift'
   s.swift_version = '5.0'
   s.resource_bundles = {
-     'Starscream_Privacy' => ['Sources/PrivacyInfo.xcprivacy'],
+     'Starscream_Privacy' => ['Sources/Starscream/PrivacyInfo.xcprivacy'],
   }
 end
